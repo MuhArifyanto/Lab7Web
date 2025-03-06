@@ -64,3 +64,6 @@ Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengak
 
 - Contoh error yang terjadi. Untuk mencoba error tersebut, ubah kode pada file
 app/Controller/Home.php hilangkan titik koma pada akhir kode.
+
+![{CBC6AEE9-FA66-49C7-BD74-265C6258E6EB}](https://github.com/user-attachments/assets/5dbb2060-9857-4a29-bc57-88db7e40dfaa)
+
