@@ -67,3 +67,38 @@ app/Controller/Home.php hilangkan titik koma pada akhir kode.
 
 ![{CBC6AEE9-FA66-49C7-BD74-265C6258E6EB}](https://github.com/user-attachments/assets/5dbb2060-9857-4a29-bc57-88db7e40dfaa)
 
+### 5. Menambahkan Rounting Baru
+
+- Routing digunakan untuk mengatur alamat URL yang akan diproses oleh aplikasi. Tambahkan kode berikut di app/Config/Routes.php:
+
+- Contoh routing dasar:
+```php
+$routes->get('/', 'Home::index');
+```
+
+- Untuk menambahkan halaman baru, tambahkan kode berikut:
+```php
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+```
+
+- Gunakan CLI (Command Line Interface) untuk melihat daftar routing yang aktif:
+```bash
+php spark routes
+```
+
+![{0908717E-559D-491F-AED1-DF685B9933FA}](https://github.com/user-attachments/assets/feb01f8b-fb8d-43c6-b111-6af3039dfd9c)
+
+
+
+
+
+
+
+
+
+
+
+
+
