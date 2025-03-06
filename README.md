@@ -90,10 +90,60 @@ php spark routes
 
 ![{0908717E-559D-491F-AED1-DF685B9933FA}](https://github.com/user-attachments/assets/feb01f8b-fb8d-43c6-b111-6af3039dfd9c)
 
+![WhatsApp Image 2025-03-06 at 06 50 35_1d82b8d8](https://github.com/user-attachments/assets/c12c9485-e762-4739-9625-79ce44a8826c)
 
+### Membuat Controller Page
+Buat file Page.php di app/Controllers/ dengan isi sebagai berikut:
 
+```php
+<?php
+namespace App\Controllers;
+class Page extends BaseController {
+    public function about() { echo "Ini halaman About"; }
+    public function contact() { echo "Ini halaman Contact"; }
+    public function faqs() { echo "Ini halaman FAQ"; }
+}
+```
 
+![WhatsApp Image 2025-03-06 at 06 35 28_5b190015](https://github.com/user-attachments/assets/eeb1116b-7bf3-4373-9444-d56b0e4c98b5)
 
+### 7. Membuat View untuk Halaman About
+Untuk meningkatkan tampilan web, kita dapat menggunakan CSS dan sistem template.
+
+- Buat file about.php di app/Views/:
+  ```php
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title><?= $title; ?></title>
+</head>
+
+<body>
+    <h1><?= $title; ?></h1>
+    <hr>
+    <p><?= $content; ?></p>
+</body>
+
+</html>
+```
+
+### 8. Menambahkan Layout Web dengan CSS
+Untuk meningkatkan tampilan website, kita akan menggunakan template header dan footer:
+
+- Simpan file style.css di public/
+- Buat file header.php dan footer.php di app/Views/template/
+- Ubah about.php agar menggunakan include:
+
+```php
+<?= $this->include('template/header'); ?>
+<h1><?= $title; ?></h1>
+<p><?= $content; ?></p>
+<?= $this->include('template/footer'); ?>
+```
+
+![WhatsApp Image 2025-03-06 at 07 05 31_da67f9ab](https://github.com/user-attachments/assets/66848adf-bf03-4dd4-9d47-02f501b58642)
 
 
 
