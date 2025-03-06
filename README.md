@@ -22,6 +22,7 @@ Dalam praktikum ini, tujuan utama yang ingin dicapai adalah sebagai berikut:
 ###  1. Instalasi dan Konfigurasi Web Server
 
 - Gunakan XAMPP sebagai web server.
+  
   ![{C334ACFA-057C-4309-906C-A76F351DF138}](https://github.com/user-attachments/assets/0ac43ff5-37b4-49fe-ab50-4e76180809bd)
 
 - Aktifkan ekstensi PHP yang diperlukan dalam php.ini:
