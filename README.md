@@ -60,7 +60,7 @@ Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengak
 
 - setelah itu nanti akan muncul seperti ini :
 
-  ![{BB137384-DC77-42F1-9655-7C70531D293C}](https://github.com/user-attachments/assets/d9005d95-ce86-4983-a1a7-1d7fdfd786bb)
+![{7FDC7ABF-4E1A-4FCB-BE42-92CA06C25DE3}](https://github.com/user-attachments/assets/4a423bf9-f28a-4147-8791-7e4c535deaaf)
 
 - Contoh error yang terjadi. Untuk mencoba error tersebut, ubah kode pada file
 app/Controller/Home.php hilangkan titik koma pada akhir kode.
